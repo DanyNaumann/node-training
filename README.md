@@ -1,6 +1,7 @@
 # 🍽️ Recipes API
 
 <p>
+  <a href="https://github.com/DanyNaumann/node-training/actions/workflows/ci.yml"><img src="https://github.com/DanyNaumann/node-training/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Node.js-18+-339933?logo=nodedotjs&logoColor=white" alt="Node.js 18+" />
   <img src="https://img.shields.io/badge/Express-5-000000?logo=express&logoColor=white" alt="Express 5" />
