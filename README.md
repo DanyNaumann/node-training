@@ -3,7 +3,7 @@
 <p>
   <a href="https://github.com/DanyNaumann/node-training/actions/workflows/ci.yml"><img src="https://github.com/DanyNaumann/node-training/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Node.js-18+-339933?logo=nodedotjs&logoColor=white" alt="Node.js 18+" />
+  <img src="https://img.shields.io/badge/Node.js-22+-339933?logo=nodedotjs&logoColor=white" alt="Node.js 22+" />
   <img src="https://img.shields.io/badge/Express-5-000000?logo=express&logoColor=white" alt="Express 5" />
   <img src="https://img.shields.io/badge/Drizzle-ORM-C5F74F?logo=drizzle&logoColor=black" alt="Drizzle ORM" />
   <img src="https://img.shields.io/badge/SQLite-3-003B57?logo=sqlite&logoColor=white" alt="SQLite" />
@@ -40,7 +40,7 @@ validation **Zod** et documentation **OpenAPI / Swagger**.
 | Domaine            | Technologie                              |
 | ------------------ | ---------------------------------------- |
 | Langage            | TypeScript (ESM, NodeNext)               |
-| Runtime            | Node.js 18+                              |
+| Runtime            | Node.js 22+ (LTS)                        |
 | Framework HTTP     | Express 5                                |
 | Auth               | Better Auth (plugin `admin` pour le RBAC) |
 | Base de données    | SQLite (`better-sqlite3`) + Drizzle ORM  |
@@ -55,7 +55,7 @@ validation **Zod** et documentation **OpenAPI / Swagger**.
 
 ### Prérequis
 
-- Node.js ≥ 18
+- Node.js ≥ 22 (requis par la stack ; `kysely`, dépendance de Better Auth, exige Node 22+)
 - npm
 
 ### Installation
